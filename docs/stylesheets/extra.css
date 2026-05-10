@@ -1,0 +1,111 @@
+/* Base */
+
+.md-typeset {
+  font-size: 14px;
+}
+
+/* Layout */
+
+.md-grid {
+  max-width: 100%;
+  margin-left: 0;
+  margin-right: 0;
+}
+
+.md-main__inner {
+  margin-top: 0;
+}
+
+/* Header */
+
+.md-header__ellipsis .md-ellipsis {
+  font-weight: bold;
+}
+
+.md-header--shadow {
+  box-shadow: 0 0.05rem 0 color-mix(in srgb, #ffffff 75%, #7a8288);
+}
+
+/* Primary sidebar */
+
+.md-sidebar--primary {
+  padding-left: 0.4rem;
+}
+
+.md-sidebar--primary .md-ellipsis {
+  font-size: 12px;
+}
+
+/* Secondary sidebar */
+
+.md-sidebar--secondary {
+  padding-right: 0.4rem;
+}
+
+.md-sidebar--secondary .md-nav__link .md-typeset,
+.md-sidebar--secondary .md-nav__title {
+  font-size: 12px;
+}
+
+.md-sidebar--secondary .md-nav__link .md-typeset,
+.md-sidebar--secondary .md-nav__link .md-typeset strong {
+  font-weight: normal;
+}
+
+/* Navigation: bold primary nav items */
+
+/* Top-level items without sub-pages */
+.md-nav--primary > .md-nav__list > .md-nav__item:not(.md-nav__item--section) .md-nav__link {
+  font-weight: bold;
+}
+
+/* Section items targeted by href */
+.md-nav--primary > .md-nav__list > .md-nav__item--section .md-nav__container a[href*="Phylogenetics"],
+.md-nav--primary > .md-nav__list > .md-nav__item--section .md-nav__container a[href*="16S"] {
+  font-weight: bold;
+}
+
+/* Footer */
+
+.md-footer-meta__inner {
+  padding: 0;
+}
+
+.md-footer__inner .md-ellipsis {
+  font-size: 12px;
+}
+
+.md-social {
+  padding: 0.1rem 0.4rem 0.1rem 0;
+}
+
+.md-copyright {
+  padding-left: 0.4rem;
+  font-size: 11px;
+}
+
+/* Desktop layout (≥ 76.25em) */
+
+@media screen and (min-width: 76.25em) {
+  .md-sidebar {
+    width: 15rem;
+  }
+
+  [dir=ltr] .md-sidebar__inner {
+    padding-right: 0;
+  }
+
+  .md-content {
+    max-width: calc(100% - 30rem);
+  }
+
+  .md-main {
+    background: linear-gradient(
+      to right,
+      transparent 15rem,
+      color-mix(in srgb, #ffffff 75%, #7a8288) 15rem,
+      color-mix(in srgb, #ffffff 75%, #7a8288) calc(15rem + 0.05rem),
+      transparent calc(15rem + 0.05rem)
+    );
+  }
+}
