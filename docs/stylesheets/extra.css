@@ -59,9 +59,14 @@
   font-weight: bold;
 }
 
-/* Section items targeted by href */
+/* Section items — inactive state, targeted by href */
 .md-nav--primary > .md-nav__list > .md-nav__item--section .md-nav__container a[href*="Phylogenetics"],
 .md-nav--primary > .md-nav__list > .md-nav__item--section .md-nav__container a[href*="16S"] {
+  font-weight: bold;
+}
+
+/* Section items — active state (href becomes relative, match by class instead) */
+.md-nav--primary > .md-nav__list > .md-nav__item--section.md-nav__item--active .md-nav__container > .md-nav__link {
   font-weight: bold;
 }
 
