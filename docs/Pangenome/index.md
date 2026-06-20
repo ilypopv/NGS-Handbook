@@ -17,7 +17,7 @@ It is recommended to use `Jupyter Notebook`. Just write `!` in the beggining of 
 To recreate any of the steps of this manual please install:
 
 ```bash
-wget https://github.com/iliapopov17/NGS-Handbook/raw/refs/heads/main/envs/panacota.yaml
+wget https://github.com/ilypopv/NGS-Handbook/raw/refs/heads/main/envs/panacota.yaml
 ```
 
 ```bash
@@ -918,7 +918,7 @@ This is a tree in `Newick` format.<br>
 
 ### **Step 6.1. Tree visualization**
 
-For more details please visit [Phylogenetics handbook](https://github.com/iliapopov17/NGS-Handbook/tree/main/04_Phylogenetics).<br>
+For more details please visit [Phylogenetics handbook](https://github.com/ilypopv/NGS-Handbook/tree/main/04_Phylogenetics).<br>
 Here we will not use `iTOL` or `FigTree` but we will visualize the tree in the fastest way possible - using pseudo-graphics.<br>
 
 Import `Phylo` module from `Biopython`.<br>

@@ -10,7 +10,7 @@
 Download it from GitHub repository:
 
 ```bash
-wget https://github.com/iliapopov17/NGS-Handbook/raw/refs/heads/main/data/04_Phylogenetics/04_04_Trees.zip
+wget https://github.com/ilypopv/NGS-Handbook/raw/refs/heads/main/data/04_Phylogenetics/04_04_Trees.zip
 ```
 
 ```bash

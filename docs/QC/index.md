@@ -17,7 +17,7 @@ We will use the `FastQC` tool to assess the quality of the raw sequencing data.
 Download it from GitHub repository:
 
 ```bash
-wget https://github.com/iliapopov17/NGS-Handbook/raw/refs/heads/main/data/01_Quality_Control.zip
+wget https://github.com/ilypopv/NGS-Handbook/raw/refs/heads/main/data/01_Quality_Control.zip
 ```
 
 ```bash
@@ -42,7 +42,7 @@ In that case write `!` in the beggining of each cell to make it understand `bash
 To recreate any of the steps of this manual please install:
 
 ```bash
-wget https://github.com/iliapopov17/NGS-Handbook/raw/refs/heads/main/envs/qc.yaml
+wget https://github.com/ilypopv/NGS-Handbook/raw/refs/heads/main/envs/qc.yaml
 ```
 
 ```bash

@@ -10,7 +10,7 @@
 Download it from GitHub repository:
 
 ```bash
-wget https://github.com/iliapopov17/NGS-Handbook/raw/refs/heads/main/data/04_Phylogenetics/04_05_Root_Date.zip
+wget https://github.com/ilypopv/NGS-Handbook/raw/refs/heads/main/data/04_Phylogenetics/04_05_Root_Date.zip
 ```
 
 ```bash
@@ -28,7 +28,7 @@ Archive:  04_05_Root_Date.zip
   inflating: data/SUP35_aln_prank.trim.fas
 ```
 
->For this work, we will use a filtered alignment (this is the same one we got in the [Trees step](https://github.com/iliapopov17/NGS-Handbook/tree/main/04_Phylogenetics/04_04_Trees))
+>For this work, we will use a filtered alignment (this is the same one we got in the [Trees step](https://github.com/ilypopv/NGS-Handbook/tree/main/04_Phylogenetics/04_04_Trees))
 
 ----------------------------------------------
 

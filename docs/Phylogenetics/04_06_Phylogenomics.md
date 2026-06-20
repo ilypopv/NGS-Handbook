@@ -10,7 +10,7 @@
 Download it from GitHub repository:
 
 ```bash
-wget https://github.com/iliapopov17/NGS-Handbook/raw/refs/heads/main/data/04_Phylogenetics/04_06_Phylogenomics.zip
+wget https://github.com/ilypopv/NGS-Handbook/raw/refs/heads/main/data/04_Phylogenetics/04_06_Phylogenomics.zip
 ```
 
 ```bash
@@ -46,7 +46,7 @@ Archive:  04_06_Phylogenomics.zip
 
 This guide is about reconstructing phylogeny using more than just one gene.<br>
 
-During this work there are several trees constructed. Some are good, some are bad. If you are interested in comparing the phylogenies - see [04_08_Tanglegram](https://iliapopov17.github.io/NGS-Handbook/IV.%20Phylogenetics/04_08_Tanglegram/)
+During this work there are several trees constructed. Some are good, some are bad. If you are interested in comparing the phylogenies - see [04_08_Tanglegram](https://ilypopv.github.io/NGS-Handbook/IV.%20Phylogenetics/04_08_Tanglegram/)
 
 ## **Part 1. Phylogeny of selected mammalian species based on mitochondrial genomes.**
 

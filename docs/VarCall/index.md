@@ -16,7 +16,7 @@ In that case write `!` in the beggining of each cell to make it understand `bash
 To recreate any of the steps of this manual please install:
 
 ```bash
-wget https://github.com/iliapopov17/NGS-Handbook/raw/refs/heads/main/envs/varcall.yaml
+wget https://github.com/ilypopv/NGS-Handbook/raw/refs/heads/main/envs/varcall.yaml
 ```
 
 ```bash

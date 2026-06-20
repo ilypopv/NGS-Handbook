@@ -62,7 +62,7 @@ Download the data to work with.<br>
 **_Input_**
 
 ```r
-url <- "https://github.com/iliapopov17/NGS-Handbook/raw/refs/heads/main/data/05_16S_amplicon_analysis/05_02_Crohns_disease.zip"
+url <- "https://github.com/ilypopv/NGS-Handbook/raw/refs/heads/main/data/05_16S_amplicon_analysis/05_02_Crohns_disease.zip"
 
 zipF<- "05_02_Crohns_disease.zip"
 

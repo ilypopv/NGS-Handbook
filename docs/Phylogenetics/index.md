@@ -14,7 +14,7 @@ icon: lucide/tree-deciduous
 To recreate any of the part of this manual please install:
 
 ```bash
-wget https://github.com/iliapopov17/NGS-Handbook/raw/refs/heads/main/envs/qc.yaml
+wget https://github.com/ilypopv/NGS-Handbook/raw/refs/heads/main/envs/qc.yaml
 ```
 
 ```bash

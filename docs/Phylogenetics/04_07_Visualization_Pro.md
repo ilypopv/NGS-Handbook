@@ -24,7 +24,7 @@ It is divided into 2 parts:<br>
 Download it from GitHub repository:
 
 ```bash
-wget https://github.com/iliapopov17/NGS-Handbook/raw/refs/heads/main/data/04_Phylogenetics/04_07_Visualization_Pro.zip
+wget https://github.com/ilypopv/NGS-Handbook/raw/refs/heads/main/data/04_Phylogenetics/04_07_Visualization_Pro.zip
 ```
 
 ```bash

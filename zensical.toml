@@ -1,22 +1,22 @@
 [project]
 site_name = "NGS Analysis Handbook"
-site_url = "https://iliapopov17.github.io/NGS-Handbook/"
+site_url = "https://ilypopv.github.io/NGS-Handbook/"
 site_description = "Cheat-sheets for NGS data analysis: QC, variant calling, pangenomics, phylogenetics, 16S amplicon analysis."
-copyright = "Copyright &copy; 2026 <a href=\"https://iliapopov17.github.io/\">Ilia Popov</a>."
+copyright = "Copyright &copy; 2026 <a href=\"https://ilypopv.github.io/\">Ilia Popov</a>."
 
 extra_css = ["stylesheets/extra.css"]
 
-repo_url = "https://github.com/iliapopov17/NGS-Handbook"
-repo_name = "iliapopov17/NGS-Handbook"
+repo_url = "https://github.com/ilypopv/NGS-Handbook"
+repo_name = "ilypopv/NGS-Handbook"
 
 plugins = ["search"]
 
 nav = [
-  {"Home" = "index.md"},
-  {"Quality Control of Raw Data" = "QC/index.md"},
-  {"Genomic Variation Analysis" = "VarCall/index.md"},
-  {"Whole Genome and Pangenome Analyses" = "Pangenome/index.md"},
-  {"Phylogenetics" = [
+  { "Home" = "index.md" },
+  { "Quality Control of Raw Data" = "QC/index.md" },
+  { "Genomic Variation Analysis" = "VarCall/index.md" },
+  { "Whole Genome and Pangenome Analyses" = "Pangenome/index.md" },
+  { "Phylogenetics" = [
     "Phylogenetics/index.md",
     "Phylogenetics/04_01_Intro_Trees.md",
     "Phylogenetics/04_02_Mining_Data.md",
@@ -26,13 +26,13 @@ nav = [
     "Phylogenetics/04_06_Phylogenomics.md",
     "Phylogenetics/04_07_Visualization_Pro.md",
     "Phylogenetics/04_08_Tanglegram.md",
-  ]},
-  {"16S Amplicon Analysis" = [
+  ] },
+  { "16S Amplicon Analysis" = [
     "16S_amplicon_analysis/index.md",
     "16S_amplicon_analysis/05_01_Introduction.md",
     "16S_amplicon_analysis/05_02_Crohns_disease.md",
     "16S_amplicon_analysis/05_03_Parkinsons_disease.md",
-  ]},
+  ] },
 ]
 
 [project.theme]
@@ -51,7 +51,7 @@ features = [
   "content.code.copy",
   "search.highlight",
   "search.suggest",
-  "toc.follow"
+  "toc.follow",
 ]
 
 [project.theme.icon]
@@ -112,7 +112,7 @@ property = "G-4RBMQR50GK"
 
 [[project.extra.social]]
 icon = "fontawesome/solid/address-card"
-link = "https://iliapopov17.github.io/"
+link = "https://ilypopv.github.io/"
 
 [[project.extra.social]]
 icon = "fontawesome/solid/envelope"
@@ -120,4 +120,4 @@ link = "mailto:iljapopov17@gmail.com"
 
 [[project.extra.social]]
 icon = "fontawesome/brands/github"
-link = "https://github.com/iliapopov17"
+link = "https://github.com/ilypopv"
