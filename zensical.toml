@@ -2,7 +2,7 @@
 site_name = "NGS Analysis Handbook"
 site_url = "https://ilypopv.github.io/NGS-Handbook/"
 site_description = "Cheat-sheets for NGS data analysis: QC, variant calling, pangenomics, phylogenetics, 16S amplicon analysis."
-copyright = "Copyright &copy; 2026 <a href=\"https://ilypopv.github.io/\">Ilia Popov</a>."
+copyright = "Copyright &copy; 2026 <a href=\"https://ilypopv.github.io/\">Ilya Popov</a>."
 
 extra_css = ["stylesheets/extra.css"]
 
