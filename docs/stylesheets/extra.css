@@ -22,9 +22,6 @@
   font-weight: bold;
 }
 
-.md-header--shadow {
-  box-shadow: 0 0.05rem 0 color-mix(in srgb, #ffffff 75%, #7a8288);
-}
 
 /* Primary sidebar */
 
@@ -108,8 +105,6 @@
     background: linear-gradient(
       to right,
       transparent 15rem,
-      color-mix(in srgb, #ffffff 75%, #7a8288) 15rem,
-      color-mix(in srgb, #ffffff 75%, #7a8288) calc(15rem + 0.05rem),
       transparent calc(15rem + 0.05rem)
     );
   }
