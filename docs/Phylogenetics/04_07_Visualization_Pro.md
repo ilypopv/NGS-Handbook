@@ -238,7 +238,7 @@ vshv.tree@phylo <- midpoint(vshv.tree@phylo)
 plot(vshv.tree@phylo)
 
 #And let's save the tree
-png(filename="imgs/1st_tree.png")
+png(filename="../imgs/1st_tree.png")
 plot(vshv.tree@phylo)
 dev.off()
 ```
@@ -246,7 +246,7 @@ dev.off()
 **_Output_**
 
 <div style='justify-content: center'>
-<img src="/images/ngs-handbook/04_Phylogenetics/04_07_Visualization_Pro//1st_tree.png" align='center', width="100%">
+<img src="../imgs/04_Phylogenetics/04_07_Visualization_Pro//1st_tree.png" align='center', width="100%">
 </div>
 
 Um. Okay, but nothing special! There is a lot of work ahead to make this tree pretty!<br>
@@ -276,7 +276,7 @@ tree_2
 **_Output_**
 
 <div style='justify-content: center'>
-<img src="/images/ngs-handbook/04_Phylogenetics/04_07_Visualization_Pro//2nd_tree.png" align='center', width="100%">
+<img src="../imgs/04_Phylogenetics/04_07_Visualization_Pro//2nd_tree.png" align='center', width="100%">
 </div>
 
 And let's save the tree.<br>
@@ -284,7 +284,7 @@ And let's save the tree.<br>
 **_Input_**
 
 ```r
-ggsave("imgs/2nd_tree.png", tree_2, dpi = 600)
+ggsave("../imgs/2nd_tree.png", tree_2, dpi = 600)
 ```
 
 ----------------------------------------------
@@ -320,7 +320,7 @@ tree_3
 **_Output_**
 
 <div style='justify-content: center'>
-<img src="/images/ngs-handbook/04_Phylogenetics/04_07_Visualization_Pro//3rd_tree.png" align='center', width="100%">
+<img src="../imgs/04_Phylogenetics/04_07_Visualization_Pro//3rd_tree.png" align='center', width="100%">
 </div>
 
 And let's save the tree.<br>
@@ -328,7 +328,7 @@ And let's save the tree.<br>
 **_Input_**
 
 ```r
-ggsave("imgs/3rd_tree.png", tree_3, dpi = 600)
+ggsave("../imgs/3rd_tree.png", tree_3, dpi = 600)
 ```
 
 ----------------------------------------------
@@ -387,7 +387,7 @@ final_tree
 **_Output_**
 
 <div style='justify-content: center'>
-<img src="/images/ngs-handbook/04_Phylogenetics/04_07_Visualization_Pro//final_tree.png" align='center', width="100%">
+<img src="../imgs/04_Phylogenetics/04_07_Visualization_Pro//final_tree.png" align='center', width="100%">
 </div>
 
 And let's save the tree.<br>
@@ -395,5 +395,5 @@ And let's save the tree.<br>
 **_Input_**
 
 ```r
-ggsave("imgs/final_tree.png", final_tree, width = 10, height = 8, dpi = 600)
+ggsave("../imgs/final_tree.png", final_tree, width = 10, height = 8, dpi = 600)
 ```
