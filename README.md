@@ -4,7 +4,7 @@
 
 This is the repository for the helpful website with cheat-sheets for NGS studies!<br>
 Please welcome (picture is clickable)!<br>
-<a href="https://ilypopv.github.io/NGS-Handbook/"><img src='https://github.com/ilypopv/ilypopv.github.io/blob/main/images/ngs-handbook/metatag.png' title="Please welcome!" width="50%"/></a>
+<a href="https://ilypopv.github.io/NGS-Handbook/"><img src='https://github.com/ilypopv/NGS-Handbook/blob/main/docs/imgs/metatag.png' title="Please welcome!" width="50%"/></a>
 
 📚NGS-Handbook<br>
  ┣ 📕01_Quality_Control<br>

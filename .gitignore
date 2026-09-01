@@ -1,0 +1,5 @@
+# Zensical serve artifact
+site
+
+# pyenv
+.python-version
