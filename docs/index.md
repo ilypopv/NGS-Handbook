@@ -6,7 +6,7 @@ icon: lucide/house
 # **Introduction**
 
 <figure markdown="span">
-  ![NGS-Handbook](/images/ngs-handbook/metatag.png){ width="50%" }
+  ![NGS-Handbook](imgs/metatag.png){ width="50%" }
 </figure>
 
 Welcome to the handbook on NGS data analysis!<br>
@@ -14,7 +14,7 @@ Once this was the library of manuals I used in work. Then I decided to deploy a 
 
 ----------------------------------------------
 
-<img src="/images/NGS workflow.png" width="100%">
+<img src="imgs/NGS_workflow.png" width="100%">
 
 _Typical workflow of NGS data analysis_
 
