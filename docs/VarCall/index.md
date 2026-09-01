@@ -102,31 +102,31 @@ Please open them in any web browser you use:<br>
 
 |Forward read|Reverse read|
 |-|-|
-|<img src="/images/ngs-handbook/02_Genomic_Variation_Analysis/Per%20base%20sequence%20quality%20R1.png" width="100%">|<img src="/images/ngs-handbook/02_Genomic_Variation_Analysis/Per%20base%20sequence%20quality%20R2.png" width="100%">|
+|<img src="../imgs/02_Genomic_Variation_Analysis/Per%20base%20sequence%20quality%20R1.png" width="100%">|<img src="../imgs/02_Genomic_Variation_Analysis/Per%20base%20sequence%20quality%20R2.png" width="100%">|
 
 #### **Per sequence quality scores**
 
 |Forward read|Reverse read|
 |-|-|
-|<img src="/images/ngs-handbook/02_Genomic_Variation_Analysis/Per%20sequence%20quality%20scores%20R1.png" width="100%">|<img src="/images/ngs-handbook/02_Genomic_Variation_Analysis/Per%20sequence%20quality%20scores%20R2.png" width="100%">|
+|<img src="../imgs/02_Genomic_Variation_Analysis/Per%20sequence%20quality%20scores%20R1.png" width="100%">|<img src="../imgs/02_Genomic_Variation_Analysis/Per%20sequence%20quality%20scores%20R2.png" width="100%">|
 
 #### **Per base sequence content**
 
 |Forward read|Reverse read|
 |-|-|
-|<img src="/images/ngs-handbook/02_Genomic_Variation_Analysis/Per%20base%20sequence%20content%20R1.png" width="100%">|<img src="/images/ngs-handbook/02_Genomic_Variation_Analysis/Per%20base%20sequence%20content%20R2.png" width="100%">|
+|<img src="../imgs/02_Genomic_Variation_Analysis/Per%20base%20sequence%20content%20R1.png" width="100%">|<img src="../imgs/02_Genomic_Variation_Analysis/Per%20base%20sequence%20content%20R2.png" width="100%">|
 
 #### **Per sequence GC content**
 
 |Forward read|Reverse read|
 |-|-|
-|<img src="/images/ngs-handbook/02_Genomic_Variation_Analysis/Per%20sequence%20GC%20content%20R1.png" width="100%">|<img src="/images/ngs-handbook/02_Genomic_Variation_Analysis/Per%20sequence%20GC%20content%20R2.png" width="100%">|
+|<img src="../imgs/02_Genomic_Variation_Analysis/Per%20sequence%20GC%20content%20R1.png" width="100%">|<img src="../imgs/02_Genomic_Variation_Analysis/Per%20sequence%20GC%20content%20R2.png" width="100%">|
 
 #### **Adapter Content**
 
 |Forward read|Reverse read|
 |-|-|
-|<img src="/images/ngs-handbook/02_Genomic_Variation_Analysis/Adapter%20Content%20R1.png" width="100%">|<img src="/images/ngs-handbook/02_Genomic_Variation_Analysis/Adapter%20Content%20R2.png" width="100%">|
+|<img src="../imgs/02_Genomic_Variation_Analysis/Adapter%20Content%20R1.png" width="100%">|<img src="../imgs/02_Genomic_Variation_Analysis/Adapter%20Content%20R2.png" width="100%">|
 
 The main problem is `Per base sequence quality`. So we will solve it using `trimmomatic`.<br>
 Details on `trimmomatic` and QC in the [Quality Control chapter](../01_Quality_Control).
