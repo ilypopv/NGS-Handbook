@@ -105,7 +105,7 @@ plotQualityProfile(fnFs[1:2])
 
 **_Output_**
 
-<img src="/images/ngs-handbook/05_16S_Amplicon_Analysis/05_01_Introduction/qc_forward.png" width="100%">
+<img src="../imgs/05_16S_Amplicon_Analysis/05_01_Introduction/qc_forward.png" width="100%">
 
 We can do the same for reverse reads.<br>
 
@@ -117,7 +117,7 @@ plotQualityProfile(fnRs[1:2])
 
 **_Output_**
 
-<img src="/images/ngs-handbook/05_16S_Amplicon_Analysis/05_01_Introduction/qc_reverse.png" width="100%">
+<img src="../imgs/05_16S_Amplicon_Analysis/05_01_Introduction/qc_reverse.png" width="100%">
 
 Now we can filter by quality and trim reads based on the resulting graphs:<br>
 
@@ -203,7 +203,7 @@ plotErrors(errF, nominalQ=TRUE)
 
 **_Output_**
 
-<img src="/images/ngs-handbook/05_16S_Amplicon_Analysis/05_01_Introduction/error_graph.png" width="100%">
+<img src="../imgs/05_16S_Amplicon_Analysis/05_01_Introduction/error_graph.png" width="100%">
 
 ----------------------------------------------
 
@@ -448,7 +448,7 @@ plot_richness(ps, x="Day", measures=c("Shannon", "Simpson"), color="When")
 
 **_Output_**
 
-<img src="/images/ngs-handbook/05_16S_Amplicon_Analysis/05_01_Introduction/alpha_div.png" width="100%">
+<img src="../imgs/05_16S_Amplicon_Analysis/05_01_Introduction/alpha_div.png" width="100%">
 
 **_Input_**
 
@@ -461,4 +461,4 @@ plot_bar(ps.top20, x="Day", fill="Family") + facet_wrap(~When, scales="free_x")
 
 **_Output_**
 
-<img src="/images/ngs-handbook/05_16S_Amplicon_Analysis/05_01_Introduction/abundance.png" width="100%">
+<img src="../imgs/05_16S_Amplicon_Analysis/05_01_Introduction/abundance.png" width="100%">
