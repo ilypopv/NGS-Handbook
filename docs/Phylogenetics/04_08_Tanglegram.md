@@ -79,7 +79,7 @@ two_trees
 **_Output_**
 
 <div style='justify-content: center'>
-<img src="/images/ngs-handbook/04_Phylogenetics/04_08_Tanglegram/two_trees.png" align='center', width="100%">
+<img src="../imgs/04_Phylogenetics/04_08_Tanglegram/two_trees.png" align='center', width="100%">
 </div>
 
 These are the trees we will be working with.<br>
@@ -88,7 +88,7 @@ Now let's save them.<br>
 **_Input_**
 
 ```r
-ggsave("imgs/two_trees.png", two_trees, width = 10, height = 8, dpi = 600)
+ggsave("../imgs/two_trees.png", two_trees, width = 10, height = 8, dpi = 600)
 ```
 
 ----------------------------------------------
@@ -113,7 +113,7 @@ two_trees_w_ro
 **_Output_**
 
 <div style='justify-content: center'>
-<img src="/images/ngs-handbook/04_Phylogenetics/04_08_Tanglegram/two_trees_w_ro.png" align='center', width="100%">
+<img src="../imgs/04_Phylogenetics/04_08_Tanglegram/two_trees_w_ro.png" align='center', width="100%">
 </div>
 
 Let's save these trees.<br>
@@ -121,7 +121,7 @@ Let's save these trees.<br>
 **_Input_**
 
 ```r
-ggsave("imgs/two_trees_w_ro.png", two_trees_w_ro, width = 10, height = 8, dpi = 600)
+ggsave("../imgs/two_trees_w_ro.png", two_trees_w_ro, width = 10, height = 8, dpi = 600)
 ```
 
 Looking good! But to manually create the tanglegram we need to adjust the coordinates of labels. And if we use `scale_x_reverse()` it will be impossible to make the tanglegram. That is why we need to go by more difficult and not obvious way - by manually horizontally mirroring the tree...<br>
@@ -160,7 +160,7 @@ two_trees_w_ro_2
 **_Output_**
 
 <div style='justify-content: center'>
-<img src="/images/ngs-handbook/04_Phylogenetics/04_08_Tanglegram/two_trees_w_ro_2.png" align='center', width="100%">
+<img src="../imgs/04_Phylogenetics/04_08_Tanglegram/two_trees_w_ro_2.png" align='center', width="100%">
 </div>
 
 Looking same good! And let's save these twoo trees.<br>
@@ -168,7 +168,7 @@ Looking same good! And let's save these twoo trees.<br>
 **_Input_**
 
 ```r
-ggsave("imgs/two_trees_w_ro_2.png", two_trees_w_ro_2, width = 10, height = 8, dpi = 600)
+ggsave("../imgs/two_trees_w_ro_2.png", two_trees_w_ro_2, width = 10, height = 8, dpi = 600)
 ```
 
 ----------------------------------------------
@@ -198,7 +198,7 @@ ggtree_tanglegram_1
 **_Output_**
 
 <div style='justify-content: center'>
-<img src="/images/ngs-handbook/04_Phylogenetics/04_08_Tanglegram/ggtree_tanglegram_1.png" align='center', width="100%">
+<img src="../imgs/04_Phylogenetics/04_08_Tanglegram/ggtree_tanglegram_1.png" align='center', width="100%">
 </div>
 
 Hooray! Let's save this tanglegram. But... the connecting lines overlap the tip labels. Now we must solve this problem!<br>
@@ -206,7 +206,7 @@ Hooray! Let's save this tanglegram. But... the connecting lines overlap the tip 
 **_Input_**
 
 ```r
-ggsave("imgs/ggtree_tanglegram_1.png", ggtree_tanglegram_1, width = 10, height = 8, dpi = 600)
+ggsave("../imgs/ggtree_tanglegram_1.png", ggtree_tanglegram_1, width = 10, height = 8, dpi = 600)
 ```
 
 Copy the `data_combined` dataset with coordinates and increase x coordinates for the 1st tree by 0.3 and decrease x coordinated for the 2nd tree by 0.3.<br>
@@ -234,7 +234,7 @@ ggtree_tanglegram_2
 **_Output_**
 
 <div style='justify-content: center'>
-<img src="/images/ngs-handbook/04_Phylogenetics/04_08_Tanglegram/ggtree_tanglegram_2.png" align='center', width="100%">
+<img src="../imgs/04_Phylogenetics/04_08_Tanglegram/ggtree_tanglegram_2.png" align='center', width="100%">
 </div>
 
 Just perfect! And let's save it.<br>
@@ -242,7 +242,7 @@ Just perfect! And let's save it.<br>
 **_Input_**
 
 ```r
-ggsave("imgs/ggtree_tanglegram_2.png", ggtree_tanglegram_2, width = 10, height = 8, dpi = 600)
+ggsave("../imgs/ggtree_tanglegram_2.png", ggtree_tanglegram_2, width = 10, height = 8, dpi = 600)
 ```
 
 ----------------------------------------------
@@ -294,7 +294,7 @@ two_trees_s
 **_Output_**
 
 <div style='justify-content: center'>
-<img src="/images/ngs-handbook/04_Phylogenetics/04_08_Tanglegram/two_trees_s.png" align='center', width="100%">
+<img src="../imgs/04_Phylogenetics/04_08_Tanglegram/two_trees_s.png" align='center', width="100%">
 </div>
 
 Interesting trees. Let's save them.<br>
@@ -302,7 +302,7 @@ Interesting trees. Let's save them.<br>
 **_Input_**
 
 ```r
-ggsave("imgs/two_trees_s.png", two_trees_s, width = 10, height = 8, dpi = 600)
+ggsave("../imgs/two_trees_s.png", two_trees_s, width = 10, height = 8, dpi = 600)
 ```
 
 Create the association matrix.<br>
@@ -324,7 +324,7 @@ cophyloplot(TreeA_S, TreeB_S, assoc = association, length.line = 4, space = 28, 
 **_Output_**
 
 <div style='justify-content: center'>
-<img src="/images/ngs-handbook/04_Phylogenetics/04_08_Tanglegram/ape_small_tanglegram.png" align='center', width="100%">
+<img src="../imgs/04_Phylogenetics/04_08_Tanglegram/ape_small_tanglegram.png" align='center', width="100%">
 </div>
 
 Wow! Let's save this plot.<br>
@@ -332,7 +332,7 @@ Wow! Let's save this plot.<br>
 **_Input_**
 
 ```r
-png("imgs/ape_small_tanglegram.png", res = 600)
+png("../imgs/ape_small_tanglegram.png", res = 600)
 cophyloplot(TreeA_S, TreeB_S, assoc = association, length.line = 4, space = 28, gap = 3)
 dev.off()
 ```
@@ -372,7 +372,7 @@ two_trees_l
 **_Output_**
 
 <div style='justify-content: center'>
-<img src="/images/ngs-handbook/04_Phylogenetics/04_08_Tanglegram/two_trees_l.png" align='center', width="100%">
+<img src="../imgs/04_Phylogenetics/04_08_Tanglegram/two_trees_l.png" align='center', width="100%">
 </div>
 
 Wow! Suppose `cophyloplot()` will not do good with such a large trees. Anyway let's save them.<br>
@@ -380,7 +380,7 @@ Wow! Suppose `cophyloplot()` will not do good with such a large trees. Anyway le
 **_Input_**
 
 ```r
-ggsave("imgs/two_trees_l.png", two_trees_l, width = 10, height = 8, dpi = 600)
+ggsave("../imgs/two_trees_l.png", two_trees_l, width = 10, height = 8, dpi = 600)
 ```
 
 Create the association matrix.<br>
@@ -402,7 +402,7 @@ cophyloplot(TreeA_L, TreeB_L, assoc = association, length.line = 4, space = 28, 
 **_Output_**
 
 <div style='justify-content: center'>
-<img src="/images/ngs-handbook/04_Phylogenetics/04_08_Tanglegram/ape_large_tanglegram.png" align='center', width="100%">
+<img src="../imgs/04_Phylogenetics/04_08_Tanglegram/ape_large_tanglegram.png" align='center', width="100%">
 </div>
 
 That looks awful... Anyway let's save it...<br>
@@ -410,7 +410,7 @@ That looks awful... Anyway let's save it...<br>
 **_Input_**
 
 ```r
-png("imgs/ape_large_tanglegram.png", res = 600)
+png("../imgs/ape_large_tanglegram.png", res = 600)
 cophyloplot(TreeA_L, TreeB_L, assoc = association, length.line = 4, space = 28, gap = 3)
 dev.off()
 ```
@@ -476,7 +476,7 @@ two_trees_l_2
 **_Output_**
 
 <div style='justify-content: center'>
-<img src="/images/ngs-handbook/04_Phylogenetics/04_08_Tanglegram/two_trees_l_2.png" align='center', width="100%">
+<img src="../imgs/04_Phylogenetics/04_08_Tanglegram/two_trees_l_2.png" align='center', width="100%">
 </div>
 
 Yeah. Looking massive. Save it.<br>
@@ -484,7 +484,7 @@ Yeah. Looking massive. Save it.<br>
 **_Input_**
 
 ```r
-ggsave("imgs/two_trees_l_2.png", two_trees_l_2, width = 10, height = 8, dpi = 600)
+ggsave("../imgs/two_trees_l_2.png", two_trees_l_2, width = 10, height = 8, dpi = 600)
 ```
 
 ----------------------------------------------
@@ -506,7 +506,7 @@ tanglegram(TreeA_L_2, TreeB_L_2,
 **_Output_**
 
 <div style='justify-content: center'>
-<img src="/images/ngs-handbook/04_Phylogenetics/04_08_Tanglegram/dendextend_large_tanglegram.png" align='center', width="100%">
+<img src="../imgs/04_Phylogenetics/04_08_Tanglegram/dendextend_large_tanglegram.png" align='center', width="100%">
 </div>
 
 Finally! That large tanglegram looks great! Let's save it.<br>
@@ -514,7 +514,7 @@ Finally! That large tanglegram looks great! Let's save it.<br>
 **_Input_**
 
 ```r
-png("imgs/dendextend_large_tanglegram.png", width = 9, height = 16, res = 600)
+png("../imgs/dendextend_large_tanglegram.png", width = 9, height = 16, res = 600)
 tanglegram(TreeA_L_2, TreeB_L_2,
            sort = TRUE,
            common_subtrees_color_lines = FALSE,
