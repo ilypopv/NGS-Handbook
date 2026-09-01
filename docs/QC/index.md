@@ -96,7 +96,7 @@ Please open them in any web browser you use:
 
 |Forward read|Reverse read|
 |-|-|
-|<img src="/images/ngs-handbook/01_Quality_Control/pre-trim/Per%20base%20sequence%20quality%20R1.png" width="100%">|<img src="/images/ngs-handbook/01_Quality_Control/pre-trim/Per%20base%20sequence%20quality%20R2.png" width="100%">|
+|<img src="../imgs/01_Quality_Control/pre-trim/Per%20base%20sequence%20quality%20R1.png" width="100%">|<img src="../imgs/01_Quality_Control/pre-trim/Per%20base%20sequence%20quality%20R2.png" width="100%">|
 
 We have boxplot graphs that show the quality by read length. We can see that for file `R2` the quality is expectedly worse than for `R1`. Reverse reads are worse a little bit, this is normal because reverse reads are timed to read later than forward reads, but similarly we can see that towards the end of the read the quality drops, which is expected.
 
@@ -104,7 +104,7 @@ We have boxplot graphs that show the quality by read length. We can see that for
 
 |Forward read|Reverse read|
 |-|-|
-|<img src="/images/ngs-handbook/01_Quality_Control/pre-trim/Per%20tile%20sequence%20quality%20R1.png" width="100%">|<img src="/images/ngs-handbook/01_Quality_Control/pre-trim/Per%20tile%20sequence%20quality%20R2.png" width="100%">|
+|<img src="../imgs/01_Quality_Control/pre-trim/Per%20tile%20sequence%20quality%20R1.png" width="100%">|<img src="../imgs/01_Quality_Control/pre-trim/Per%20tile%20sequence%20quality%20R2.png" width="100%">|
 
 These graphs show the quality per individual "tile". There is a slight inequality here, but in fact we have too few readings to notice any trends here. The main thing is that if there are any clear situations in this graph, where there is a group of "tiles" that are doing badly and they are next to each other, this is a reason to suspect that we have a problem with the flow cell (it is dirty).
 
@@ -112,7 +112,7 @@ These graphs show the quality per individual "tile". There is a slight inequalit
 
 |Forward read|Reverse read|
 |-|-|
-|<img src="/images/ngs-handbook/01_Quality_Control/pre-trim/Per%20sequence%20quality%20scores%20R1.png" width="100%">|<img src="/images/ngs-handbook/01_Quality_Control/pre-trim/Per%20sequence%20quality%20scores%20R2.png" width="100%">|
+|<img src="../imgs/01_Quality_Control/pre-trim/Per%20sequence%20quality%20scores%20R1.png" width="100%">|<img src="../imgs/01_Quality_Control/pre-trim/Per%20sequence%20quality%20scores%20R2.png" width="100%">|
 
 Quality averaged per read. Distribution: more than 100 reads with normal quality, but there is also a rather large tail with reads that average poor quality.
 
@@ -120,7 +120,7 @@ Quality averaged per read. Distribution: more than 100 reads with normal quality
 
 |Forward read|Reverse read|
 |-|-|
-|<img src="/images/ngs-handbook/01_Quality_Control/pre-trim/Per%20base%20sequence%20content%20R1.png" width="100%">|<img src="/images/ngs-handbook/01_Quality_Control/pre-trim/Per%20base%20sequence%20content%20R2.png" width="100%">|
+|<img src="../imgs/01_Quality_Control/pre-trim/Per%20base%20sequence%20content%20R1.png" width="100%">|<img src="../imgs/01_Quality_Control/pre-trim/Per%20base%20sequence%20content%20R2.png" width="100%">|
 
 Distribution of nucleotide composition by position in the read. It can be seen that there are no sharp peaks here, although the graph looks rather broken. This is also because we have few reads. If we had more reads, the graph would probably be more or less even. The main thing is that there are no sharp big peaks.
 
@@ -128,7 +128,7 @@ Distribution of nucleotide composition by position in the read. It can be seen t
 
 |Forward read|Reverse read|
 |-|-|
-|<img src="/images/ngs-handbook/01_Quality_Control/pre-trim/Per%20sequence%20GC%20content%20R1.png" width="100%">|<img src="/images/ngs-handbook/01_Quality_Control/pre-trim/Per%20sequence%20GC%20content%20R2.png" width="100%">|
+|<img src="../imgs/01_Quality_Control/pre-trim/Per%20sequence%20GC%20content%20R1.png" width="100%">|<img src="../imgs/01_Quality_Control/pre-trim/Per%20sequence%20GC%20content%20R2.png" width="100%">|
 
 GC composition distribution. It is used to analyse contamination. If we had 2 peaks on the graph, we could say that we probably have contaminants because we have organisms with different GC compositions present. It may appear that there is also a second peak in our data, but we have little data and the "little extra hump" merges with the main hump, meaning it is not a full-fledged second peak.
 
@@ -136,7 +136,7 @@ GC composition distribution. It is used to analyse contamination. If we had 2 pe
 
 |Forward read|Reverse read|
 |-|-|
-|<img src="/images/ngs-handbook/01_Quality_Control/pre-trim/Adapter%20Content%20R1.png" width="100%">|<img src="/images/ngs-handbook/01_Quality_Control/pre-trim/Adapter%20Content%20R2.png" width="100%">|
+|<img src="../imgs/01_Quality_Control/pre-trim/Adapter%20Content%20R1.png" width="100%">|<img src="../imgs/01_Quality_Control/pre-trim/Adapter%20Content%20R2.png" width="100%">|
 
 This is the biggest problem in our data. We see that we have a fairly early increase in the percentages of adapter content in the reads. In the most recent nucleotide reads, over 60% of the reads contain adapters. This tells us that the library was short, so the adapters got in. This means that we have a very short piece of DNA, and when we read it, we have read it all, and then we go on to read the adapters.
 
@@ -216,7 +216,7 @@ Input Read Pairs: 767<br>
 When searching for genetic variants using modern tools, removing adapters may not only not improve but even worsen the results of the analysis!
 
 <div style='justify-content: center'>
-<img src="/images/ngs-handbook/01_Quality_Control/Adapters%20trimming.png" align='center', width="50%">
+<img src="../imgs/01_Quality_Control/Adapters%20trimming.png" align='center', width="50%">
 </div>
 
 ----------------------------------------------
@@ -258,7 +258,7 @@ Please open them in any web browser you use:<br>
 
 |Forward paired read|Forward unpaired read|Reverse paired read|Reverse unpaired read|
 |-|-|-|-|
-|<img src="/images/ngs-handbook/01_Quality_Control/post-trim/Per%20base%20sequence%20quality%20P%20R1.png" width="100%">|<img src="/images/ngs-handbook/01_Quality_Control/post-trim/Per%20base%20sequence%20quality%20UnP%20R1.png" width="100%">|<img src="/images/ngs-handbook/01_Quality_Control/post-trim/Per%20base%20sequence%20quality%20P%20R2.png" width="100%">|<img src="/images/ngs-handbook/01_Quality_Control/post-trim/Per%20base%20sequence%20quality%20UnP%20R2.png" width="100%">|
+|<img src="../imgs/01_Quality_Control/post-trim/Per%20base%20sequence%20quality%20P%20R1.png" width="100%">|<img src="../imgs/01_Quality_Control/post-trim/Per%20base%20sequence%20quality%20UnP%20R1.png" width="100%">|<img src="../imgs/01_Quality_Control/post-trim/Per%20base%20sequence%20quality%20P%20R2.png" width="100%">|<img src="../imgs/01_Quality_Control/post-trim/Per%20base%20sequence%20quality%20UnP%20R2.png" width="100%">|
 
 Paired readings are those that have a pair preserved. There are far fewer of them.
 
@@ -266,6 +266,6 @@ Paired readings are those that have a pair preserved. There are far fewer of the
 
 |Forward paired read|Forward unpaired read|Reverse paired read|Reverse unpaired read|
 |-|-|-|-|
-|<img src="/images/ngs-handbook/01_Quality_Control/post-trim/Adapter%20Content%20P%20R1.png" width="100%">|<img src="/images/ngs-handbook/01_Quality_Control/post-trim/Adapter%20Content%20UnP%20R1.png" width="100%">|<img src="/images/ngs-handbook/01_Quality_Control/post-trim/Adapter%20Content%20P%20R2.png" width="100%">|<img src="/images/ngs-handbook/01_Quality_Control/post-trim/Adapter%20Content%20UnP%20R2.png" width="100%">|
+|<img src="../imgs/01_Quality_Control/post-trim/Adapter%20Content%20P%20R1.png" width="100%">|<img src="../imgs/01_Quality_Control/post-trim/Adapter%20Content%20UnP%20R1.png" width="100%">|<img src="../imgs/01_Quality_Control/post-trim/Adapter%20Content%20P%20R2.png" width="100%">|<img src="../imgs/01_Quality_Control/post-trim/Adapter%20Content%20UnP%20R2.png" width="100%">|
 
 But if we look at the adapter content chart, we see that adapters have been trimmed, there are hardly any left.
