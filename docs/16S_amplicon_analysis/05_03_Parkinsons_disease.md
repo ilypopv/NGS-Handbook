@@ -627,7 +627,7 @@ heatmap_with_split(
 
 **_Output_**
 
-<img src="/images/ngs-handbook/05_16S_Amplicon_Analysis/05_03_Parkinsons_disease/heatmap.png" width="100%">
+<img src="../imgs/05_16S_Amplicon_Analysis/05_03_Parkinsons_disease/heatmap.png" width="100%">
 
 ???+ note
     This heatmap is not perfect at all. It is not in "publication ready quality". Yet it serves well for the aim of analysis.
@@ -683,7 +683,7 @@ varImpPlot(modRF)
 
 **_Output_**
 
-<img src="/images/ngs-handbook/05_16S_Amplicon_Analysis/05_03_Parkinsons_disease/varimpplot.png" width="100%">
+<img src="../imgs/05_16S_Amplicon_Analysis/05_03_Parkinsons_disease/varimpplot.png" width="100%">
 
 Predict case/control status for the test set using the trained Random Forest model<br>
 
@@ -800,4 +800,4 @@ plot(perf,main="ROC Curve", sub = paste("AUC = ",aucRF) )
 
 **_Output_**
 
-<img src="/images/ngs-handbook/05_16S_Amplicon_Analysis/05_03_Parkinsons_disease/roccurve.png" width="100%">
+<img src="../imgs/05_16S_Amplicon_Analysis/05_03_Parkinsons_disease/roccurve.png" width="100%">
