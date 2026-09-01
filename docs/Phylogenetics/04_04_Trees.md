@@ -34,7 +34,7 @@ prank -codon -d=data/SUP35_10seqs.fa -o=data/SUP35_aln_prank.best.fas -F
 ```
 
 <div style='justify-content: center'>
-<img src="/images/ngs-handbook/04_Phylogenetics/04_04_Trees/tree_building_overview.png" align='center', width="100%">
+<img src="../imgs/04_Phylogenetics/04_04_Trees/tree_building_overview.png" align='center', width="100%">
 </div>
 
 _Tree building overview_
@@ -117,13 +117,13 @@ ggsave(args[2])
 **_Input_**
 
 ```bash
-Rscript scripts/draw_tree.R data/raxml/SUP35_raxml.raxml.bestTree imgs/SUP35_raxml.png
+Rscript scripts/draw_tree.R data/raxml/SUP35_raxml.raxml.bestTree ../imgs/SUP35_raxml.png
 ```
 
 **_Output_**
 
 <div style='justify-content: center'>
-<img src="/images/ngs-handbook/04_Phylogenetics/04_04_Trees/SUP35_raxml.png" align='center', width="100%">
+<img src="../imgs/04_Phylogenetics/04_04_Trees/SUP35_raxml.png" align='center', width="100%">
 </div>
 
 ----------------------------------------------
@@ -178,13 +178,13 @@ iqtree2 -m TIM3+F+G4 -s data/SUP35_aln_prank.trim.fas --prefix data/iqtree/SUP35
 **_Input_**
 
 ```bash
-Rscript draw_tree.R data/iqtree/SUP35_iqtree.treefile imgs/SUP35_iqtree.png
+Rscript draw_tree.R data/iqtree/SUP35_iqtree.treefile ../imgs/SUP35_iqtree.png
 ```
 
 **_Output_**
 
 <div style='justify-content: center'>
-<img src="/images/ngs-handbook/04_Phylogenetics/04_04_Trees/SUP35_iqtree.png" align='center', width="100%">
+<img src="../imgs/04_Phylogenetics/04_04_Trees/SUP35_iqtree.png" align='center', width="100%">
 </div>
 
 The trees obtained with RAxML and IQTREE are fundamentally similar.<br>
@@ -331,13 +331,13 @@ ggsave(args[2])
 **_Input_**
 
 ```bash
-Rscript scripts/draw_tree_max.R data/iqtree_ufb_alrt_abayes/SUP35_TIM3_B_alrt_abayes.treefile imgs/SUP35_TIM3_B_alrt_abayes.png
+Rscript scripts/draw_tree_max.R data/iqtree_ufb_alrt_abayes/SUP35_TIM3_B_alrt_abayes.treefile ../imgs/SUP35_TIM3_B_alrt_abayes.png
 ```
 
 **_Output_**
 
 <div style='justify-content: center'>
-<img src="/images/ngs-handbook/04_Phylogenetics/04_04_Trees/SUP35_TIM3_B_alrt_abayes.png" align='center', width="100%">
+<img src="../imgs/04_Phylogenetics/04_04_Trees/SUP35_TIM3_B_alrt_abayes.png" align='center', width="100%">
 </div>
 
 All values ​​- `alrt`, `abayes` and `ufb` are positively correlated - that is, if the indicators are high, then they are all high, as a rule. But this is not proportional.<br>
