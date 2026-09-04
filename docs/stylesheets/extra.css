@@ -67,6 +67,11 @@
   font-weight: bold;
 }
 
+/* Secondary nav items indentation: mobile default (icon width offset) */
+.md-nav--primary .md-nav__item--section > .md-nav > .md-nav__list > .md-nav__item > .md-nav__link {
+  padding-left: calc(0.8rem + 1.3em);
+}
+
 /* Footer */
 
 .md-footer-meta__inner {
@@ -107,5 +112,9 @@
       transparent 15rem,
       transparent calc(15rem + 0.05rem)
     );
+  }
+
+  .md-nav--primary .md-nav__item--section > .md-nav > .md-nav__list > .md-nav__item > .md-nav__link {
+    padding-left: calc(0.8rem + 1.3em + 0.6rem);
   }
 }
